@@ -93,7 +93,7 @@
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
-                                            <action selector="addCoursePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="n9C-lu-gbK"/>
+                                            <action selector="addCoursePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Xdu-gk-oEJ"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0q2-Hu-T1J">
@@ -104,7 +104,7 @@
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
-                                            <action selector="myCoursesPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sMW-QK-jxl"/>
+                                            <action selector="myCoursesPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="82y-GB-tKy"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -183,9 +183,9 @@
                     </view>
                     <navigationItem key="navigationItem" id="XPa-rc-4Ga"/>
                     <connections>
-                        <outlet property="addCourseButton" destination="DjJ-DD-jd0" id="7ns-hZ-iXx"/>
-                        <outlet property="courseTable" destination="Hgf-FZ-aEf" id="dbl-91-8Bd"/>
-                        <outlet property="message" destination="VTD-ah-qTu" id="1p2-Ud-gxj"/>
+                        <outlet property="addCourseButton" destination="DjJ-DD-jd0" id="MqL-2D-GfT"/>
+                        <outlet property="courseTable" destination="Hgf-FZ-aEf" id="4W6-TR-jfF"/>
+                        <outlet property="message" destination="VTD-ah-qTu" id="nEg-lM-dve"/>
                         <segue destination="g0F-IY-AUu" kind="presentation" identifier="registerSegue" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="hca-ul-OxK"/>
                     </connections>
                 </viewController>
@@ -451,7 +451,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="6MJ-F0-Qr1"/>
+        <segue reference="as0-52-PUP"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="chevron.backward" catalog="system" width="96" height="128"/>
